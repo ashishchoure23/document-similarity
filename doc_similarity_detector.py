@@ -86,6 +86,8 @@ def similarity_score(s1, s2):
             s = syn1.path_similarity(syn2)
             if s != None:
                 similarity.append(s)
+            else:
+                similarity.append(0)
                 
         if not similarity:
             continue
