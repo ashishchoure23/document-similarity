@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Plagiarism Checker - Document Similarity Detector</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">                        
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container-sm">
+            <br/>
+            <br/>
+            <h1>Plagiarism Checker - Document Similarity Detector</h1>
+            <h4>by Ashish Choure</h2>
+            <br/>
+            <br/>
+            <h2>How to use</h2>
+            <p>Enter text in Text1 and Text2 input field.
+                Click submit to get similarity score.
+            </p>
+
+            <form action="/compare" method="POST">
+                <div class="form-group">
+                    <label for="Textarea1">Text1</label>  
+                    <textarea class="form-control" id="Textarea1" rows="3" name="text1" required></textarea>
+                    <br/>
+                    <label for="Textarea2">Text2</label>
+                    <textarea class="form-control" id="Textarea2" rows="3" name="text2" required></textarea>
+                    <br/>
+                    <input class="btn btn-primary" type="submit" value="Submit" id=process_input></input>
+                </div>
+            </form>
+            <br>
+            <br>
+            <div class="alert alert-primary" role="alert">
+                <a class="btn btn-info" href="" class="alert-link"  target="_blank">Github</a>
+                <a class="btn btn-info" href="https://www.linkedin.com/in/ashish-choure-1b7b881b/" class="alert-link"  target="_blank">Linkedin</a>
+            </div>
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
