@@ -4,7 +4,7 @@ This app compares two text document and returns similarity between them. It uses
 
 # Live app
 
-
+[document-similarity](https://document-similarity.herokuapp.com/)
 
 # Installing
 
