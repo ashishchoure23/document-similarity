@@ -18,9 +18,8 @@ def review():
    
     if np.isnan(similarity_score):
         similarity_score = 0
-
-    app.logger.info('error %s' , error)    
-    return render_template('result.html', text1=text1, text2=text2, similarity_score=similarity_score, error=error)
+    
+    return render_template('result.html', text1=text1, text2=text2, similarity_score=similarity_score)
 
 
 if __name__ == "__main__":
