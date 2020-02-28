@@ -15,4 +15,4 @@ pip install -r requirements.txt
 
 # License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ashishchoure23/Sentiment-analysis/blob/master/LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ashishchoure23/document-similarity/blob/master/LICENSE.md) file for details.
